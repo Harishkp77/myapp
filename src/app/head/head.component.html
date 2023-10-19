@@ -1,0 +1,9 @@
+
+<h1>child component </h1>
+
+<label for="lastName">LastName</label>
+<input type="text" id="lastName" [(ngModel)]="name">
+
+
+<label for="phone">Mobile Number</label>
+<input type="text" id="phone" (input)="emitPhoneEvent($event)">
